@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>Page title</title>
+<head>
+    <style>
+        body{
+            border-style: solid;
+        }
+      a{          
+        text-decoration: purple;
+        color:Navy;
+        }
+        li:hover{
+            background-color:blue;
+        }
+        div{
+            background-color:violet;
+            style:solid;
+        }
+        li{
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <h1><u>Day 10 Assignment</u></h1>
+    <div style="list-style-type:none;">      
+    <li><strong><a href="#">Inner element</strong><p>This is the content of the inner element</p></a></li>
+    <li><strong><a href="#">Outer element</strong><p>This is the content of the outer element</p></a></li></div>
+    
+</body>
+</html>
